@@ -2,7 +2,7 @@ console.log("AI Input Enhancer content script loaded");
 
 async function fetchEnhancedPrompts(prompt) {
     try {
-        const response = await fetch("http://localhost:8000/refine", {
+        const response = await fetch("https://prompt-refine-extension.onrender.com/refine", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ prompt: prompt })
