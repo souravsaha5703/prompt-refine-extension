@@ -1,8 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "AI Prompt Enhancer",
+  "name": "PromptRefine",
   "version": "1.0",
-  "description": "Enhance text input on chatbot sites",
+  "description": "PromptRefine helps you instantly refine and enhance your prompts across ChatGPT, Claude, Gemini, and Perplexity. Adds a simple button to suggest smarter prompt variations.",
+  "icons": {
+    "16": "assets/extension-icon16.png",
+    "48": "assets/extension-icon48.png",
+    "128": "assets/extension-icon128.png"
+  },
   "content_scripts": [
     {
       "matches": [
@@ -29,5 +34,8 @@
         "<all_urls>"
       ]
     }
+  ],
+  "host_permissions": [
+    "https://prompt-refine-extension.onrender.com/*"
   ]
 }
