@@ -9,7 +9,8 @@
         "*://chat.openai.com/*",
         "*://claude.ai/*",
         "*://gemini.google.com/*",
-        "*://chatgpt.com/*"
+        "*://chatgpt.com/*",
+        "*://www.perplexity.ai/*"
       ],
       "js": [
         "content/content.js"

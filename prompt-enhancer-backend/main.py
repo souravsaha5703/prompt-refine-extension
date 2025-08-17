@@ -17,6 +17,9 @@ app.add_middleware(
 class PromptRequest(BaseModel):
     prompt:str
 
+@app.get("/health_check")
+def check_backend_health():
+    return {"health":"ok","status":200}
 
 @app.post("/refine")
 def refinePrompt(req:PromptRequest):
