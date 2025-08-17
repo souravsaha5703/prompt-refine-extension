@@ -1,5 +1,7 @@
 # PromptRefine – Chrome Extension
 
+![PromptRefine Screenshot](https://res.cloudinary.com/dez9wcn3g/image/upload/v1755450221/extension-icon48_w79fa5.png)
+
 **PromptRefine** helps you instantly refine and enhance your prompts across **ChatGPT, Claude, Gemini, and Perplexity**.  
 It adds a simple button next to the chat input box to suggest smarter prompt variations.
 
@@ -59,6 +61,15 @@ Since this extension is not yet on the Chrome Web Store, you can install it manu
 
 ---
 
+## 📷 Screenshots
+
+![PromptRefine Screenshot](https://res.cloudinary.com/dez9wcn3g/image/upload/v1755449789/Screenshot_2025-08-17_222334_bq3p9b.png)
+![PromptRefine Screenshot](https://res.cloudinary.com/dez9wcn3g/image/upload/v1755449789/Screenshot_2025-08-17_222456_m7ftkb.png)
+![PromptRefine Screenshot](https://res.cloudinary.com/dez9wcn3g/image/upload/v1755449789/Screenshot_2025-08-17_222557_jdu78a.png)
+
+
+---
+
 ## 🔒 Privacy
 - The extension **only activates** on supported sites (ChatGPT, Claude, Gemini, Perplexity).
 - User text is only sent to the backend **when you click the refine button**.
@@ -68,5 +79,3 @@ Since this extension is not yet on the Chrome Web Store, you can install it manu
 
 ## 🤝 Contributing
 Feel free to fork this repo and submit pull requests with improvements.
-
----
